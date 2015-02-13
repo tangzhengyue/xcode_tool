@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#button#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+    &lt;#button#&gt;.frame = CGRectMake(&lt;#x#&gt;, &lt;#y#&gt;, &lt;#width#&gt;, &lt;#height#&gt;);
+    [&lt;#button#&gt; setBackgroundImage:[UIImage imageNamed:@"&lt;#image#&gt;"] forState:UIControlStateNormal];
+    [&lt;#button#&gt; setBackgroundImage:[UIImage imageNamed:@"&lt;#image_highlighted#&gt;"] forState:UIControlStateHighlighted];
+    [&lt;#button#&gt; setTag:&lt;#0#&gt;];
+    [&lt;#button#&gt; addTarget:self action:@selector(&lt;#btnClicked#&gt;:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:&lt;#button#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>17AEDC02-518B-4DE5-AB7B-CB26F62D1D74</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create a button with background image</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tzy Create Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
