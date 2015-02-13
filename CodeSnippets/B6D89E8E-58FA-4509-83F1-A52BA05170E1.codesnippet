@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pc</string>
+	<string>ps</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy)NSString *&lt;#name#&gt;;</string>
+	<string>@property (nonatomic, strong)&lt;#type#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>764FBA7E-5782-45E8-AB28-C46EEDE39879</string>
+	<string>B6D89E8E-58FA-4509-83F1-A52BA05170E1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Property copy</string>
+	<string>Property String</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tzy Property Copy</string>
+	<string>tzy Property Strong</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

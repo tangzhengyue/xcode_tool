@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#button#&gt; = UIButton(frame: CGRect(x: &lt;#x#&gt;, y: &lt;#y#&gt;, width: &lt;#width#&gt;, height: &lt;#height#&gt;))
+        &lt;#button#&gt;.setBackgroundImage(UIImage(named: "&lt;#image#&gt;"), forState: .Normal)
+        &lt;#button#&gt;.setBackgroundImage(UIImage(named: "&lt;#image_highlighted#&gt;"), forState: .Highlighted)
+        &lt;#button#&gt;.tag = &lt;#0#&gt;
+        &lt;#button#&gt;.addTarget(self, action: "&lt;#btnClicked#&gt;:", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(&lt;#button#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4598C657-72F5-4356-BF8D-957B535A6926</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create a button with background image</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tzy Create Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
